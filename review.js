@@ -100,42 +100,68 @@ console.log(doppelGangers)
 
 // Can we use length for strings? I don't know, you tell me.
 const noWeCantTeo = "but did you try it out though?"
+const stringLength = noWeCantTeo.length
+console.log(stringLength)
 
 // If only it was this easy to replace() my ex. Totally not joking, LOL. JK
 const replaceGokuWithVegeta = "For my DBZ fans, we all know Goku is the best!"
+const updatedString = replaceGokuWithVegeta.replace("Goku", "Vegeta")
+console.log(updatedString);
 
 // Josh has been forgetful lately. Let's help Josh by using search(), and find their right 'wifey'. 
 const joshIsLookingForWifey = "WIFEY 1, wifey 2, WiFeY 3, Wifey 4"
+const searchString = joshIsLookingForWifey.search("wifey 2")
+console.log(searchString)
 
 // I guess we can share this pizza sentence. Use slice() to return the other half of pizza.
 const pizzaSentence = "pizza, other half of pizza"
+const sliceString = pizzaSentence.slice(7)
+console.log(sliceString)
 
 // Now using the pizza sentence, return only pizza (before the comma)
+const slicedString = pizzaSentence.slice(0,5)
+console.log(slicedString)
 
 // Okay, but who decided to go to this expensive restaurant? Yaz, Poornima, and Leshawn decided to split() the bill. Return an array separating Yaz, Poornima, and Leshawn.
 const splitTheBill = "Yaz, Poornima, and Leshawn"
+const customers = splitTheBill.split("," )
+console.log(customers)
 
 // OH NO! The alien invaders from earlier were so against bill splitting so they decided to split() Yaz, Poornima, and Leshawn into pieces. Using splitTheBill, return an array separating all three by characters.
+const ohNoInvaders = splitTheBill.split("")
+console.log(ohNoInvaders)
 
 // Use this toLowerCase()
 const angry = "LOWER YOUR VOICE DOWN IF YOU AIN'T PAYING MY BILLS."
-// Tuan was angry today. Create a string with words that Tuan would yell out. Now lowercase it, to tell Tuan to chill out. 
+const lowerCase = angry.toLowerCase()
+console.log(lowerCase)
+
+// Tuan was angry today.Create a string with words that Tuan would yell out. Now lowercase it, to tell Tuan to chill out. 
+const angryToday ="DONT START NOTHIN' WONT BE NOTHING !!!!"
+const lowerCases = angryToday.toLowerCase()
+console.log(lowerCases)
 
 // toUpperCase()
 const jahlunSaidToPutSomeRespectToHisName = "jahlun"
+const upperCase = jahlunSaidToPutSomeRespectToHisName.toUpperCase()
+console.log(upperCase)
 
 // substring()
 // on the chopping block...
 
 // Returns "ell"
 const basicGreeting = "Hello World"
+const ellString = basicGreeting.substring(1,4)
+console.log(ellString)
 
 // Returns "JavaScript"
 const ohReally = "JavaScript Substring"
+const javaScript =ohReally.substring(0,10)
+console.log(javaScript)
 
 // Returns aol.com
 const aslDays = "xXteoWuzHereXx@aol.com"
-
+const
 // trim()
 // If only I can use this for my love handles...
 // Create a variable with a string value with some extra loving on both sides.
