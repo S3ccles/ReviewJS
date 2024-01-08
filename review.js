@@ -220,7 +220,7 @@ const whateverQueenBeySaid = {
   thing3: 'gaming console'
 }
 for (const property in whateverQueenBeySaid) {
-  console.log(`${property}: ${whateverQueenBeySaid[property]}`);
+  console.log(`${property}: ${whateverQueenBeySaid[property]}`)
 }
 
 // Using (FOR IN LOOP), print the indexes of the array.
@@ -228,7 +228,7 @@ const lana = ['l', 'a', 'n', 'a']
 let index = 0; 
 
 for (const property in lana) {
-   console.log(`Index: ${index}, Property: ${property}, Value: ${lana[property]}`);
+   console.log(`Index: ${index}, Property: ${property}, Value: ${lana[property]}`)
   index++;
 }
 
@@ -237,15 +237,15 @@ for (const property in lana) {
 const tia = ['teo', 'the', 'syntax', 'of', 'this', 'is', 'cleaner']
 for (const loopT  of tia) {
   // Code to be executed for each element
-  console.log(loopT);
+  console.log(loopT)
 }
 
 // Look into forEach() loop, it accepts a callback aka a function inside a function. 
 // Swathi said don't forget each person. No person left behind! Use forEach() to iterate over the array perscholas. Inside the function, create a variable with the string "PS". Print their name in the console concatenated with the variable. 
 const perscholas = ['Amira', 'Arely', 'Jonathan']
 perscholas.forEach(function(person) {
-  const psVariable = "PS";
-  console.log(person + " " + psVariable);
+  const psVariable = "PS"
+  console.log(person + " " + psVariable)
 });
 
 // =================================================
@@ -268,14 +268,23 @@ perscholas.forEach(function(person) {
 const fruits = ['apple', 'banana', 'orange']
 
 // Print banana
+const fruitSlice = fruits.slice(1,2)
+console.log(fruitSlice)
 
 // Let's turn it up a notch. I won't tell you what array methods to use. 
 
 // Join all the elements of the array into a string separated by a space.
+const joinedFruits = fruits.join(" ")
+console.log(joinedFruits)
 
 // Remove orange
+const removeOrange = fruits.pop()
+console.log(removeOrange)
 
 // Add strawberry, kiwi, and grapes at the end
+const addFruits = fruits.push(...["strawberry", "kiwi", "grapes"])
+console.log(addFruits)
+console.log(fruits)
 
 // Remove apple
 
