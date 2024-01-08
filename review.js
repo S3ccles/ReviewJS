@@ -54,152 +54,163 @@
 
 // Using charAt(), print the letter i in Sabrina
 let charName = "Sabrina";
-let desiredLetter = charName.charAt(4)
-console.log(desiredLetter);
+// let desiredLetter = charName.charAt(4)
+// console.log(desiredLetter);
 
-// Define Unicode in a comment, and get the Unicode using charCodeAt() of the third character in Teddy
-let uniName = "Teddy"
-let thirdCharCode = uniName.charCodeAt(2) 
-console.log(thirdCharCode);  
+// // Define Unicode in a comment, and get the Unicode using charCodeAt() of the third character in Teddy
+// let uniName = "Teddy"
+// let thirdCharCode = uniName.charCodeAt(2) 
+// console.log(thirdCharCode);  
 
-// Using fromCharCode() - make it readable for us :). You'll see!
-let letterD = String.fromCharCode(100)
-console.log(letterD)
+// // Using fromCharCode() - make it readable for us :). You'll see!
+// let letterD = String.fromCharCode(100)
+// console.log(letterD)
 
-// Take your first and last name and concat()
-let firstName ="Shanira"
-let lastName = "Eccles"
-let fullName = ( firstName + lastName )
-console.log(fullName)
+// // Take your first and last name and concat()
+// let firstName ="Shanira"
+// let lastName = "Eccles"
+// let fullName = ( firstName + lastName )
+// console.log(fullName)
 
-// Create a string and make it return true using startsWith()
-let msgString ="Howdy, there!"
-let rtnString = msgString.startsWith("Howdy")
-console.log(rtnString); 
+// // Create a string and make it return true using startsWith()
+// let msgString ="Howdy, there!"
+// let rtnString = msgString.startsWith("Howdy")
+// console.log(rtnString); 
 
-// Now use any variable with endsWith() and return false
-let endString = msgString.endsWith("there")
-console.log(endString)
+// // Now use any variable with endsWith() and return false
+// let endString = msgString.endsWith("there")
+// console.log(endString)
 
-// Finish the following sentence. Use includes() and return true.
-const ozgur = 'Once upon a time Ozgur looked up at the Moon, '
-const includeSent = ozgur + 'and wondered about how many stars.'
-const finSent = includeSent.includes('stars')
-console.log(finSent)
+// // Finish the following sentence. Use includes() and return true.
+// const ozgur = 'Once upon a time Ozgur looked up at the Moon, '
+// const includeSent = ozgur + 'and wondered about how many stars.'
+// const finSent = includeSent.includes('stars')
+// console.log(finSent)
 
-// Help! I'm looking for my cow! Using indexOf() help Josh find his cow. What's the index of cow?
-const joshHadALittleLambOopsCow = "Josh lives in a farm. Josh was overwhelmed with coding. Josh is stressed out. Josh fed the chickens this morning. He watered his plants. He took his cow Betsy on a walk. Josh went home without Betsy. Josh went to bed that night, and realized he went home alone."
-const cowIndex = joshHadALittleLambOopsCow.indexOf("cow")
-console.log(cowIndex)
+// // Help! I'm looking for my cow! Using indexOf() help Josh find his cow. What's the index of cow?
+// const joshHadALittleLambOopsCow = "Josh lives in a farm. Josh was overwhelmed with coding. Josh is stressed out. Josh fed the chickens this morning. He watered his plants. He took his cow Betsy on a walk. Josh went home without Betsy. Josh went to bed that night, and realized he went home alone."
+// const cowIndex = joshHadALittleLambOopsCow.indexOf("cow")
+// console.log(cowIndex)
 
-// Oh no! The alien doppelgangers are here. Let's use our laserbeam lastIndexOf() to shoot down the last alien named Vanessa in the String Universe.
+// // Oh no! The alien doppelgangers are here. Let's use our laserbeam lastIndexOf() to shoot down the last alien named Vanessa in the String Universe.
 
-const vanessa = "I am the Alpha Vanessa. I am the Omega Vanessa. We do not come in peace."
-const doppelGangers = vanessa.lastIndexOf("Vanessa")
-console.log(doppelGangers)
+// const vanessa = "I am the Alpha Vanessa. I am the Omega Vanessa. We do not come in peace."
+// const doppelGangers = vanessa.lastIndexOf("Vanessa")
+// console.log(doppelGangers)
 
-// Can we use length for strings? I don't know, you tell me.
-const noWeCantTeo = "but did you try it out though?"
-const stringLength = noWeCantTeo.length
-console.log(stringLength)
+// // Can we use length for strings? I don't know, you tell me.
+// const noWeCantTeo = "but did you try it out though?"
+// const stringLength = noWeCantTeo.length
+// console.log(stringLength)
 
-// If only it was this easy to replace() my ex. Totally not joking, LOL. JK
-const replaceGokuWithVegeta = "For my DBZ fans, we all know Goku is the best!"
-const updatedString = replaceGokuWithVegeta.replace("Goku", "Vegeta")
-console.log(updatedString);
+// // If only it was this easy to replace() my ex. Totally not joking, LOL. JK
+// const replaceGokuWithVegeta = "For my DBZ fans, we all know Goku is the best!"
+// const updatedString = replaceGokuWithVegeta.replace("Goku", "Vegeta")
+// console.log(updatedString);
 
-// Josh has been forgetful lately. Let's help Josh by using search(), and find their right 'wifey'. 
-const joshIsLookingForWifey = "WIFEY 1, wifey 2, WiFeY 3, Wifey 4"
-const searchString = joshIsLookingForWifey.search("wifey 2")
-console.log(searchString)
+// // Josh has been forgetful lately. Let's help Josh by using search(), and find their right 'wifey'. 
+// const joshIsLookingForWifey = "WIFEY 1, wifey 2, WiFeY 3, Wifey 4"
+// const searchString = joshIsLookingForWifey.search("wifey 2")
+// console.log(searchString)
 
-// I guess we can share this pizza sentence. Use slice() to return the other half of pizza.
-const pizzaSentence = "pizza, other half of pizza"
-const sliceString = pizzaSentence.slice(7)
-console.log(sliceString)
+// // I guess we can share this pizza sentence. Use slice() to return the other half of pizza.
+// const pizzaSentence = "pizza, other half of pizza"
+// const sliceString = pizzaSentence.slice(7)
+// console.log(sliceString)
 
-// Now using the pizza sentence, return only pizza (before the comma)
-const slicedString = pizzaSentence.slice(0,5)
-console.log(slicedString)
+// // Now using the pizza sentence, return only pizza (before the comma)
+// const slicedString = pizzaSentence.slice(0,5)
+// console.log(slicedString)
 
-// Okay, but who decided to go to this expensive restaurant? Yaz, Poornima, and Leshawn decided to split() the bill. Return an array separating Yaz, Poornima, and Leshawn.
-const splitTheBill = "Yaz, Poornima, and Leshawn"
-const customers = splitTheBill.split("," )
-console.log(customers)
+// // Okay, but who decided to go to this expensive restaurant? Yaz, Poornima, and Leshawn decided to split() the bill. Return an array separating Yaz, Poornima, and Leshawn.
+// const splitTheBill = "Yaz, Poornima, and Leshawn"
+// const customers = splitTheBill.split("," )
+// console.log(customers)
 
-// OH NO! The alien invaders from earlier were so against bill splitting so they decided to split() Yaz, Poornima, and Leshawn into pieces. Using splitTheBill, return an array separating all three by characters.
-const ohNoInvaders = splitTheBill.split("")
-console.log(ohNoInvaders)
+// // OH NO! The alien invaders from earlier were so against bill splitting so they decided to split() Yaz, Poornima, and Leshawn into pieces. Using splitTheBill, return an array separating all three by characters.
+// const ohNoInvaders = splitTheBill.split("")
+// console.log(ohNoInvaders)
 
-// Use this toLowerCase()
-const angry = "LOWER YOUR VOICE DOWN IF YOU AIN'T PAYING MY BILLS."
-const lowerCase = angry.toLowerCase()
-console.log(lowerCase)
+// // Use this toLowerCase()
+// const angry = "LOWER YOUR VOICE DOWN IF YOU AIN'T PAYING MY BILLS."
+// const lowerCase = angry.toLowerCase()
+// console.log(lowerCase)
 
-// Tuan was angry today.Create a string with words that Tuan would yell out. Now lowercase it, to tell Tuan to chill out. 
-const angryToday ="DONT START NOTHIN' WONT BE NOTHING !!!!"
-const lowerCases = angryToday.toLowerCase()
-console.log(lowerCases)
+// // Tuan was angry today.Create a string with words that Tuan would yell out. Now lowercase it, to tell Tuan to chill out. 
+// const angryToday ="DONT START NOTHIN' WONT BE NOTHING !!!!"
+// const lowerCases = angryToday.toLowerCase()
+// console.log(lowerCases)
 
-// toUpperCase()
-const jahlunSaidToPutSomeRespectToHisName = "jahlun"
-const upperCase = jahlunSaidToPutSomeRespectToHisName.toUpperCase()
-console.log(upperCase)
+// // toUpperCase()
+// const jahlunSaidToPutSomeRespectToHisName = "jahlun"
+// const upperCase = jahlunSaidToPutSomeRespectToHisName.toUpperCase()
+// console.log(upperCase)
 
-// substring()
-// on the chopping block...
+// // substring()
+// // on the chopping block...
 
-// Returns "ell"
-const basicGreeting = "Hello World"
-const ellString = basicGreeting.substring(1,4)
-console.log(ellString)
+// // Returns "ell"
+// const basicGreeting = "Hello World"
+// const ellString = basicGreeting.substring(1,4)
+// console.log(ellString)
 
-// Returns "JavaScript"
-const ohReally = "JavaScript Substring"
-const javaScript = ohReally.substring(0,10)
-console.log(javaScript)
+// // Returns "JavaScript"
+// const ohReally = "JavaScript Substring"
+// const javaScript = ohReally.substring(0,10)
+// console.log(javaScript)
 
-// Returns aol.com
-const aslDays = "xXteoWuzHereXx@aol.com"
-const subAol = aslDays.substring(15)
-console.log(subAol)
+// // Returns aol.com
+// const aslDays = "xXteoWuzHereXx@aol.com"
+// const subAol = aslDays.substring(15)
+// console.log(subAol)
 
 
-// trim()
-// If only I can use this for my love handles...lol
-// Create a variable with a string value with some extra loving on both sides.
+// // trim()
+// // If only I can use this for my love handles...lol
+// // Create a variable with a string value with some extra loving on both sides.
 
-// =================================================
-//                     BOOLEAN
-// =================================================
+// // =================================================
+// //                     BOOLEAN
+// // =================================================
 
-// I just want my dreams to come true. 
-// With the powers of logical and comparison operators, PRINT TRUE please!
-// Replace the underscores.
+// // I just want my dreams to come true. 
+// // With the powers of logical and comparison operators, PRINT TRUE please!
+// // Replace the underscores.
 
-const a = 5;
-const b = 10;
-const c = 15;
-const d = "Keke"
+// const a = 5;
+// const b = 10;
+// const c = 15;
+// const d = "Keke"
 
-console.log(a < b)
-console.log(c > b)
-console.log(d == d)
-console.log(d !== a)
-console.log(a  < 15)
-console.log(a < b < c)
-console.log(c > b > a !== d)
+// console.log(a < b)
+// console.log(c > b)
+// console.log(d == d)
+// console.log(d !== a)
+// console.log(a  < 15)
+// console.log(a < b < c)
+// console.log(c > b > a !== d)
 
 // =================================================
 //                     LOOPS
 // =================================================
 
 // Ken has a headache today and he said the room has been spinning like crazy. Make Ken's room spin 10 times using FOR LOOP. Make him print a sentence.
+for (let i = 1; i <= 10; i++) {
+       console.log("Oh man I never thought I would get off this roller coaster:", i) 
+}
 
 // Harry said that was so mean of Teo to do Ken dirty like that. Make Teo's vision spin 20 times FOR LOOP.
 
-// But wait! Lisa said, while Teo is spinning 20 times. Let's make him say "I'm sorry". Print I'm sorry 20 times using a WHILE loop.
+for (let i = 1; i <= 20; i++) {
+       console.log("Teo's vision has spun:" ,i)
+}
 
+// But wait! Lisa said, while Teo is spinning 20 times. Let's make him say "I'm sorry". Print I'm sorry 20 times using a WHILE loop.
+let lisa = 1
+while (lisa <= 20) {
+    console.log("I am sorry :", lisa)
+    lisa++
+}
 // For the next three, look for the syntax of FOR IN and FOR OF loop. Very easy to understand syntax, and very clean :) 
 
 // To The Left! To The Left! Everything I want in the console to the left. Print thing1, thing2, thing 3 using (FOR IN LOOP)
@@ -208,16 +219,34 @@ const whateverQueenBeySaid = {
   thing2: 'clothes',
   thing3: 'gaming console'
 }
+for (const property in whateverQueenBeySaid) {
+  console.log(`${property}: ${whateverQueenBeySaid[property]}`);
+}
 
 // Using (FOR IN LOOP), print the indexes of the array.
 const lana = ['l', 'a', 'n', 'a']
+let index = 0; 
+
+for (const property in lana) {
+   console.log(`Index: ${index}, Property: ${property}, Value: ${lana[property]}`);
+  index++;
+}
+
 
 // USE (FOR OF LOOP)!
 const tia = ['teo', 'the', 'syntax', 'of', 'this', 'is', 'cleaner']
+for (const loopT  of tia) {
+  // Code to be executed for each element
+  console.log(loopT);
+}
 
 // Look into forEach() loop, it accepts a callback aka a function inside a function. 
 // Swathi said don't forget each person. No person left behind! Use forEach() to iterate over the array perscholas. Inside the function, create a variable with the string "PS". Print their name in the console concatenated with the variable. 
 const perscholas = ['Amira', 'Arely', 'Jonathan']
+perscholas.forEach(function(person) {
+  const psVariable = "PS";
+  console.log(person + " " + psVariable);
+});
 
 // =================================================
 //                     ARRAYS
