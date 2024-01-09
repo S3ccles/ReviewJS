@@ -287,8 +287,11 @@ console.log(addFruits)
 console.log(fruits)
 
 // Remove apple
+const shiftApple = fruits.shift()
+console.log(shiftApple)
 
 // Add mango at the beginning of the array
+
 
 // Add lemon, and grapefruit between mango and banana
 
